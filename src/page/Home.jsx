@@ -9,8 +9,7 @@ import ImagesReveal from "../components/ImagesReveal"
 const Home = () => {
     return (
         <div>
-            <Hero />
-            <TrustedBySection />   
+            <Hero />   
             <About />
             <FeatureSection />
             <ImagesReveal />
