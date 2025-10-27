@@ -63,9 +63,9 @@ export default function HeroSection() {
 
           {/* Right Heading */}
           <div className="text-center lg:text-right">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-extrabold leading-[1.1] text-white mb-10 md:mb-14">
-              UNLEASH YOUR <br className="hidden md:block" />
-              POTENTIAL
+            <h1 className="text-4xl sm:text-5xl md:text-7xl  font-extrabold leading-[1.1] text-white mb-10 md:mb-14">
+              Professional & Amateur <br className="hidden md:block" />
+               Boxing gym.
             </h1>
           </div>
         </div>
