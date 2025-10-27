@@ -3,18 +3,19 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative h-[100vh] flex items-center overflow-hidden">
       {/* Background Video */}
        <iframe
         src="https://player.vimeo.com/video/989542107?h=407179bc4b&autoplay=1&loop=1&title=0&portrait=0&byline=0&badge=0&muted=1&controls=0&background=1"
-        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+        className="absolute inset-0 w-full h-[100vh] object-cover pointer-events-none"
         style={{ border: 0 }}
         allow="autoplay; fullscreen"
         allowFullScreen
+        playsInline
       ></iframe>
 
       {/* Overlay Gradient */}
-      <div className="absolute inset-0 "></div>
+      <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Content Wrapper */}
       <div className="relative z-10 w-full max-w-[90rem] mx-auto px-6 sm:px-8 md:px-12 lg:px-16 flex flex-col justify-center">
