@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section className="relative h-[100vh] flex items-center overflow-hidden">
       {/* Background Video */}
       <video
-        src="/vedio.mp4"   // Your video in public folder
+        src="/video.mp4"   // Your video in public folder
         autoPlay
         loop
         muted
