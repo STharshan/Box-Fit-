@@ -5,14 +5,14 @@ export default function HeroSection() {
   return (
     <section className="relative h-[100vh] flex items-center overflow-hidden">
       {/* Background Video */}
-       <iframe
-        src="https://player.vimeo.com/video/989542107?h=407179bc4b&autoplay=1&loop=1&title=0&portrait=0&byline=0&badge=0&muted=1&controls=0&background=1"
-        className="absolute inset-0 w-full h-[100vh] object-cover pointer-events-none"
-        style={{ border: 0 }}
-        allow="autoplay; fullscreen"
-        allowFullScreen
+      <video
+        src="/vedio.mp4"   // Your video in public folder
+        autoPlay
+        loop
+        muted
         playsInline
-      ></iframe>
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+      />
 
       {/* Overlay Gradient */}
       <div className="absolute inset-0 bg-black/60"></div>
@@ -66,9 +66,9 @@ export default function HeroSection() {
 
           {/* Right Heading */}
           <div className="text-center lg:text-right">
-            <h1 className="text-4xl sm:text-5xl md:text-7xl  font-extrabold leading-[1.1] text-white mb-10 md:mb-14">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-[1.1] text-white mb-10 md:mb-14">
               Professional & Amateur <br className="hidden md:block" />
-               Boxing gym.
+              Boxing gym.
             </h1>
           </div>
         </div>
