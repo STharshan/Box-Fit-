@@ -75,9 +75,9 @@ export default function HeroSection() {
           <div></div>
           <div className="flex flex-col sm:flex-row items-center gap-3 md:gap-4 md:pr-10">
             <p className="text-gray-400 text-sm md:text-base">
-              <span className="text-[#E1912F]">*</span> First week free — no strings attached.
+              <span className="text-red-600">*</span> First week free — no strings attached.
             </p>
-            <button className="bg-white text-black font-semibold px-8 py-3 rounded-full shadow-md hover:bg-[#E1912F] hover:text-black transition-all duration-300">
+            <button className="bg-white text-black font-semibold px-8 py-3 rounded-full shadow-md hover:bg-red-600 hover:text-black transition-all duration-300">
               Start Explore
             </button>
           </div>
